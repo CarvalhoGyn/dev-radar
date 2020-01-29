@@ -11,7 +11,7 @@ const app = express()
 const server = http.Server(app)
 setupWebSocket(server)
 
-mongoose.connect('mongodb+srv://thiaguera_gyn:245680@cluster0-4xsw7.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
